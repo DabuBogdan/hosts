@@ -26,3 +26,4 @@ while read -r ip hostname rest; do
     dns_verifier "$hostname" "$ip" "$DNS_SERVER"
   fi
 done < /etc/hosts
+echo "Andrei Paun"
